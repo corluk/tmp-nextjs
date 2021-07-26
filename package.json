@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@material-ui/core": "^4.12.2",
+    "@material-ui/icons": "^4.11.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "scripts": {
+    "start": "node_modules/.bin/next",
+    "build": "node_modules/.bin/next build",
+    "static": "node_modules/.bin/next export"
+  },
+  "devDependencies": {
+    "next": "^11.0.1"
+  }
+}
