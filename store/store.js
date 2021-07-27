@@ -8,6 +8,7 @@ const reducer =(state={"tick":"init"},action )=>{
 
     switch(action.type){
         case HYDRATE:
+            console.log("hydrate called ")
             const stateDiff = diff(state,action.payload) 
             const wasBumbedOnClient = stateDiff.page[0].endsWith("X") // or any other criteria 
             return {
